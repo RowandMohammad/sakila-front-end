@@ -1,0 +1,20 @@
+/* ListActorComponent.css */
+
+.container {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.btn-info, .btn-danger {
+    margin-right: 10px;
+}
+
+/* Add custom styling for the search bar and icons if necessary */
+.input-group-text i {
+    font-size: 18px;
+}
