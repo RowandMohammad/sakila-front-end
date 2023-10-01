@@ -1,7 +1,7 @@
 // src/services/FilmService.js
 import axios from 'axios';
 
-const FILM_BASE_REST_API_URL = 'http://sakila-env.eba-q2q2anr3.eu-west-2.elasticbeanstalk.com/films';
+const FILM_BASE_REST_API_URL = 'https://sakilaapp.rowandsmohammad.com/films';
 
 class FilmService {
     getAllFilms() {
@@ -37,7 +37,7 @@ class FilmService {
     }
     
     getDashboardStats() {
-        return axios.get('http://sakila-env.eba-q2q2anr3.eu-west-2.elasticbeanstalk.com/dashboard/stats');
+        return axios.get('https://sakilaapp.rowandsmohammad.com/dashboard/stats');
     }
     
     getFilmDetailsById(id) {
@@ -53,7 +53,7 @@ class FilmService {
     }
 
     getMostPopularFilms() {
-        return axios.get('http://sakila-env.eba-q2q2anr3.eu-west-2.elasticbeanstalk.com/dashboard/popularFilms');
+        return axios.get('https://sakilaapp.rowandsmohammad.com/dashboard/popularFilms');
     }
     
     
