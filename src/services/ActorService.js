@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const ACTOR_BASE_REST_API_URL = 'http://sakila-env.eba-q2q2anr3.eu-west-2.elasticbeanstalk.com/actors';
+const ACTOR_BASE_REST_API_URL = 'https://sakilaapp.rowandsmohammad.com/actors';
 
 
 class ActorService {
