@@ -16,7 +16,7 @@ function LoginComponent() {
 
     const handleLogin = async () => {
         try {
-            const response = await axios.post('http://localhost:8080/login', { username, password });
+            const response = await axios.post('https://sakilaapp.rowandsmohammad.com/login', { username, password });
             if (response.data) {
                 setIsAuthenticated(true);  // Set the authentication state
                 navigate('/dashboard');
