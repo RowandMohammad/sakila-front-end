@@ -1,62 +1,114 @@
-.film-container {
-    max-width: 800px;
+/* Film Styles */
+
+.container, .film-container {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.title {
-    text-align: center;
+.container h2, .film-container h2 {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-control, select.form-control {
     margin-bottom: 20px;
-}
-
-.search-bar {
-    margin: 20px 0;
-}
-
-.category-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.category-button {
-    padding: 5px 10px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    border: 1px solid #ddd;
+    padding: 10px;
 }
 
-.category-button:hover {
+.btn {
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-primary:hover {
     background-color: #0056b3;
 }
 
-.sub-title {
-    text-align: center;
-    margin-bottom: 20px;
+.btn-info {
+    background-color: #17a2b8;
+    color: #fff;
 }
 
-.add-film-btn {
-    display: block;
-    margin: 0 auto 20px auto;
+.btn-info:hover {
+    background-color: #128c97;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Film Details Styles */
+
+.film-details-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.film-details-container li {
+    padding: 5px 0;
+}
+
+/* List Film Styles */
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.category-buttons {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .film-table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 20px;
 }
 
 .film-table th, .film-table td {
-    padding: 10px;
-    border: 1px solid #ccc;
-    text-align: left;
+    padding: 15px;
+    border: 1px solid #e7e7e7;
 }
 
-.action-btn {
-    margin: 0 5px;
+.film-table thead th {
+    background-color: #f9f9f9;
 }

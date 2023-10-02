@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import ActorService from '../services/ActorService';
+import './ListActorComponent.css'; 
 
 const ListActorComponent = () => {
   console.log("ListActorComponent rendered"); 

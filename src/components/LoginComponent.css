@@ -1,0 +1,79 @@
+/* LoginComponent.css */
+
+.icons {
+    display: none; /* Hide the SVG icons container */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    width: 100%; /* Ensure the container takes full width */
+}
+
+
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-box h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Added left padding to make space for the icon */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s, background-color 0.3s; /* Added transition for smooth effect */
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-box button:hover {
+    background-color: #0056b3;
+}
+
+/* ... existing styles ... */
+
+.input-group {
+    position: relative;
+    margin: 10px 0;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    fill: #aaa;
+}
+
+
+
+.login-box input:hover {
+    border-color: #007bff;
+    background-color: #f7f9fc;
+}

@@ -1,20 +1,83 @@
-/* ListActorComponent.css */
+/* Actor Styles */
 
 .container {
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+.input-group-text {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
 }
 
 .table {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
-.btn-info, .btn-danger {
-    margin-right: 10px;
+.table th, .table td {
+    padding: 15px;
+    border: 1px solid #e7e7e7;
 }
 
-/* Add custom styling for the search bar and icons if necessary */
-.input-group-text i {
-    font-size: 18px;
+.table thead th {
+    background-color: #f9f9f9;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.btn-info:hover {
+    background-color: #128c97;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #218838;
 }
